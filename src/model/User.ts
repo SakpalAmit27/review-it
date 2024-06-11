@@ -1,5 +1,6 @@
 import mongoose, {Schema,Document}from "mongoose";
 
+//imp note :  mongoose schemas are for mongo db //
 
 // an interface for message and type safety
 export interface Message extends Document{
